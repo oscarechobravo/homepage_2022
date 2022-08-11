@@ -1,7 +1,16 @@
 <template>
   <div>
     <Header/>
-    <article>
+    <article class="mw8 center">
+      <div class="tc-l mt4 mt5-m ph3 pb3 bg-light-purple">
+        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Social justice and sustainability in services and digital technology</h1>
+        <h2 class="fw1 f3 white-80 mt3 mb4">I do a bunch of things, research, some dev, some data science, user research, facilitation, training, visualisations, and stuff, and would like you to know about them!</h2>
+        <p class="white-80">Want to subvert systems, do whatever and things?</p>
+        <a class="f6 no-underline grow dib v-mid bg-blue white ba b--white ph3 pv2 mb3" href="https://fractals.coop">come talk to fractals co-op</a>
+        <p class="white-80">Interested in my academic methods for developing digital tech that challenges environmental and social injustice?</p>
+        <!-- <span class="dib v-mid ph3 white-70 mb3">or</span>-->
+        <a class="f6 no-underline grow dib v-mid white ba b--white bg-blue ph3 pv2 mb3" href="https://www.lancaster.ac.uk/scc/about-us/people/oliver-bates">Academic Work @ Lancaster University</a>
+      </div>
       <div id="about" class="fl-100 pl4 pr4">
         <h1>About</h1>
         <p>I'm Oliver co-owner/worker of fractals co-op, Research Fellow in the School of Computing and Communications at Lancaster University, and a partner of Cetis LLP.</p>
@@ -14,6 +23,9 @@
         <h2>Research at Lancaster University</h2>
         <p>
           Oliver is a <a href="https://www.lancaster.ac.uk/people-profiles/oliver-bates">researcher and technology designer</a>&nbsp;at Lancaster University who delivers multi-stakeholder projects through mixed-methods approaches. The co-design and development of tech focusing on doing good for people and the environment.
+        </p>
+        <p>
+          From Computer Science to Social Justice...
         </p>
         <p>I specialise in research projects that bring together human-factors, with social and environmental injustice. Whilst I have qualifications what I love doing is bringing together people and methods that are appropraite for making social and environmental change where digital tech is involved.  I like to use a wide range of methods, often adapting, chopping, changing, and remixing them to fit the projects on which I work.</p>
         <br/>

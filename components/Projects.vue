@@ -18,6 +18,7 @@ import projectData from "~/content/projects/projects.json";
 export default {
   name: "Projects.vue",
   data() {
+    //TODO sort by date then return
     return {
       projects:projectData,
     };

@@ -1,7 +1,7 @@
 <template>
   <header class="sans-serif">
     <div class="bg-purple">
-      <nav class="dt w-100 mw8 center">
+      <nav class="dt w-100 mw8 ph4 center">
 <!--        <div class="dtc w5 v-mid pa3">
           <a href="/" class="border-box">
             <div class="dtc">
@@ -17,7 +17,7 @@
         </div>
         <div class="dtc v-mid tr pa3">
           <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >About</a>
-          <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="projects" >Projects</a>
+          <!--<a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="projects" >Projects</a>-->
           <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="#about" >Now</a>
           <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="#contact" >Contact</a>
         </div>

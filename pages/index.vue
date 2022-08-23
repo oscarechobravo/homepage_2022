@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="debug">
     <Header/>
-    <article class="mw8 center">
-      <div class="tc-l mt4 mt5-m ph3 pb3 bg-light-purple">
-        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Social justice and sustainability in services and digital technology</h1>
+    <div class="mw8 center">
+      <div class="tc pb3 bg-light-purple">
+        <h1 class="f1 fw2 white-90 mb0 lh-title">Social justice and sustainability in services and digital technology</h1>
         <h2 class="fw1 f3 white-80 mt3 mb4">I do a bunch of things, research, some dev, some data science, user research, facilitation, training, visualisations, and stuff, and would like you to know about them!</h2>
         <p class="white-80">Want to subvert systems, do whatever and things?</p>
         <a class="f6 no-underline grow dib v-mid bg-blue white ba b--white ph3 pv2 mb3" href="https://fractals.coop">come talk to fractals co-op</a>
@@ -83,7 +83,7 @@
         <p>SmallBlueBird</p>
         <p>LeGram</p>
       </div>
-    </article>
+    </div>
   </div>
 
 

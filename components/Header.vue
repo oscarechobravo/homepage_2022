@@ -16,9 +16,9 @@
           <h2 class="f6 fw2 ttu tracked white-90">Researcher, Designer, Social Tech</h2>
         </div>
         <div class="dtc v-mid tr pa3">
-          <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >About</a>
+          <NuxtLink class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/">About</NuxtLink>
+          <NuxtLink class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/now">Now</NuxtLink>
           <!--<a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="projects" >Projects</a>-->
-          <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="#about" >Now</a>
           <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="#contact" >Contact</a>
         </div>
       </nav>

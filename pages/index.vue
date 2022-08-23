@@ -1,14 +1,15 @@
 <template>
   <div class="debug">
     <Header/>
+    <!-- TODO refactor so layout is in a template rather than in index, now, etc -->
     <div class="mw8 center">
-      <div class="tc pb3 bg-light-purple">
+      <<div class="tc pb3 bg-light-purple">
         <h1 class="f1 fw2 white-90 mb0 lh-title">Social justice and sustainability in services and digital technology</h1>
         <h2 class="fw1 f3 white-80 mt3 mb4">I do a bunch of things, research, some dev, some data science, user research, facilitation, training, visualisations, and stuff, and would like you to know about them!</h2>
         <p class="white-80">Want to subvert systems, do whatever and things?</p>
         <a class="f6 no-underline grow dib v-mid bg-blue white ba b--white ph3 pv2 mb3" href="https://fractals.coop">come talk to fractals co-op</a>
         <p class="white-80">Interested in my academic methods for developing digital tech that challenges environmental and social injustice?</p>
-        <!-- <span class="dib v-mid ph3 white-70 mb3">or</span>-->
+        <!--<span class="dib v-mid ph3 white-70 mb3">or</span>-->
         <a class="f6 no-underline grow dib v-mid white ba b--white bg-blue ph3 pv2 mb3" href="https://www.lancaster.ac.uk/scc/about-us/people/oliver-bates">Academic Work @ Lancaster University</a>
       </div>
       <div id="about" class="fl-100 pl4 pr4">
@@ -16,22 +17,33 @@
         <p>I'm Oliver co-owner/worker of fractals co-op, Research Fellow in the School of Computing and Communications at Lancaster University, and a partner of Cetis LLP.</p>
       </div>
 
-      <div class="fl-100 pl4 pr4 bg-washed-yellow-yellow">
+      <div class="fl-100 pl4 pr4 bg-light-gray">
+      <div class="fl-100 pl4 pr4 bg-washed-yellow">
         <h2>Systems and practice change at fractals co-op</h2>
-        <p>fractals started when 4 friends got together to help achieve social impacts by guiding organisations and communities through processes that help them challenge the systems and practices. Broadly speaking we work with any organisation who is values alligned and wants to improve themselves, their products/services, or help communities achieve change. Often digital technology is at the core of this work, but it doesn't have to be. Come and talk to us.  </p>
-
+        <p>fractals started when 4 friends got together to help achieve social impacts by guiding organisations and communities through processes that help them challenge the systems and practices. Broadly speaking we work with any organisation who is values aligned and wants to improve themselves, their products/services, or help communities achieve change. Often digital technology is at the core of this work, but it doesn't have to be.
+        </p>
+          <h4><a href="https://fractals.coop">Looking to get unstuck? Come and talk to us.</a></h4>
+      </div>
+      <div class="fl-100 pl4 pr4 bg-washed-yellow">
         <h2>Research at Lancaster University</h2>
         <p>
-          Oliver is a <a href="https://www.lancaster.ac.uk/people-profiles/oliver-bates">researcher and technology designer</a>&nbsp;at Lancaster University who delivers multi-stakeholder projects through mixed-methods approaches. The co-design and development of tech focusing on doing good for people and the environment.
+          Oliver blends methods from <a href="https://www.lancaster.ac.uk/people-profiles/oliver-bates">user research, design, and data science</a>&nbsp;at Lancaster University across three broad areas:
         </p>
-        <p>
-          From Computer Science to Social Justice...
-        </p>
-        <p>I specialise in research projects that bring together human-factors, with social and environmental injustice. Whilst I have qualifications what I love doing is bringing together people and methods that are appropraite for making social and environmental change where digital tech is involved.  I like to use a wide range of methods, often adapting, chopping, changing, and remixing them to fit the projects on which I work.</p>
-        <br/>
+          <ul>
+            <li>projects where data can help stakeholders champion carbon reductions</li>
+            <li>critiquing digital technology where it is implicated in environmental or social injustice</li>
+            <li>The co-design and development of tech focusing on doing good for people and the environment</li>
+          </ul>
 
-        <h2>EduTech and Learning Technologies at Cetis LLP</h2>
-        <p>I joined Cetis in 2018 looking to bring my user research and communication skills out of academia and into industry. </p>
+        <h3>From Computer Science to Championing Social Justice...</h3>
+
+        <p>I specialise in research projects that bring together human-factors, with social and environmental injustice. Whilst I have qualifications what I love doing is bringing together people and methods that are appropriate for making social and environmental change where digital tech is involved.  I like to use a wide range of methods, often adapting, chopping, changing, and remixing them to fit the projects on which I work.</p>
+      </div>
+
+      <div>
+        <h2>Data, Dashboards, and Organisational Tech at Cetis LLP</h2>
+        <p>I joined Cetis in 2018 looking to bring my user research and communication skills out of academia and into industry. Cetis is a partnership and co-operative that historically has worked on learning technologies and EduTech.</p>
+      </div>
 
         <p><strong><em>Current research projects:</em></strong></p>
         <ul>
@@ -75,15 +87,8 @@
           Academic Publications: <a href="https://scholar.google.co.uk/citations?user=ZXDbf_EAAAAJ&amp;hl=en">[Google Scholar]</a> <a href="https://www.lancaster.ac.uk/people-profiles/oliver-bates">[Academic Profile]</a>
         </p>
       </div>
-
-      <div id="contact" class="fl-100 white-70 pl4 pr4 bg-purple pv4 pv3-ns pl6">
-        <h1>Get In Touch</h1>
-        <p>my socials</p>
-        <p>linkedOut</p>
-        <p>SmallBlueBird</p>
-        <p>LeGram</p>
-      </div>
     </div>
+    <Footer/>
   </div>
 
 
